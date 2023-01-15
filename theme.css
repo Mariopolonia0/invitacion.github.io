@@ -16,17 +16,20 @@ html, body{
     background-position: 50% 60%;
     background-attachment: scroll;
     background-size: cover;
-    height: 40vh;
+    height: 100vh;
     margin: 0;
-    padding-top: 60vh;
+    padding: 1vh;
+   
 }
 .heading {
     color: #ffc4ff;
     display: block;
     font-family: 'Caveat', cursive;
-    font-size: 5em;
+    font-size: 6em;
     font-weight: bold;
+    margin-top: 50vh;
 }
+
 .heading-subtext{
     color: #fff;
     display: block;
@@ -85,6 +88,6 @@ html, body{
 
 @media only screen and (max-width: 600px) {
     .heading {
-        font-size: 3em;
+        font-size: 4em;
     }
   }
