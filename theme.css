@@ -14,17 +14,16 @@ html, body{
     background-position: 50% 60%;
     background-attachment: scroll;
     background-size: cover;
-    height: 40vh;
+    height: 45vh;
     margin: 0;
     padding-top: 60vh;
 }
 .heading {
-    color: #ffffff;
+    color: #ffc4ff;
     display: block;
     font-family: 'Caveat', cursive;
     font-size: 6em;
-    font-weight: normal;
-    text-shadow: 0 0 10px #000;
+    font-weight: bold;
 }
 .heading-subtext{
     color: #fff;
