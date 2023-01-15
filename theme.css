@@ -7,14 +7,16 @@ html, body{
     margin: 0;
     height: 100vh;
     text-align: center;
+    background-color: #ce93d8;
 }
+
 .header{
     background-image: url(./img/hero.jpeg);
     background-repeat: no-repeat;
     background-position: 50% 60%;
     background-attachment: scroll;
     background-size: cover;
-    height: 45vh;
+    height: 40vh;
     margin: 0;
     padding-top: 60vh;
 }
@@ -22,7 +24,7 @@ html, body{
     color: #ffc4ff;
     display: block;
     font-family: 'Caveat', cursive;
-    font-size: 6em;
+    font-size: 5em;
     font-weight: bold;
 }
 .heading-subtext{
@@ -83,6 +85,6 @@ html, body{
 
 @media only screen and (max-width: 600px) {
     .heading {
-        font-size: 4em;
+        font-size: 3em;
     }
   }
