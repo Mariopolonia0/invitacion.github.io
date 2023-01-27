@@ -1,16 +1,16 @@
-*{
-    font-family: 'Quicksand', sans-serif;
-    font-size: 16px;
+* {
     color: #222;
 }
-html, body{
+
+html,
+body {
     margin: 0;
     height: 100vh;
     text-align: center;
-    background-color: #ce93d8;
+    background-color: #faddff;
 }
 
-bienvenida{
+bienvenida {
     color: #9100ff;
     font-family: arial;
     font-size: calc(1em + 1vw);
@@ -24,12 +24,50 @@ nombreBienvenida {
     color: #9100ff;
     display: block;
     font-family: 'Caveat', cursive;
-    font-size: 7em;
+    font-size: 6em;
     font-weight: bold;
     margin-top: 15vh;
 }
 
-.header{
+textoNombre {
+    color: #9100ff;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+
+.rowNombrePadres{
+    position: relative;
+}
+
+.rowDivNombrePadres {
+    height: 100%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+tituloPresentacion {
+    color: #9100ff;
+    font-family: arial;
+    font-size: calc(1em + 2vw);
+    margin-top: 10%;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
     background-image: url(./img/hero.jpeg);
     background-repeat: no-repeat;
     background-position: 50% 60%;
@@ -41,14 +79,15 @@ nombreBienvenida {
 }
 
 
-.heading-subtext{
+.heading-subtext {
     color: #fff;
     display: block;
     font-family: 'Caveat', cursive;
     font-size: .6em;
 }
-.fixed-button{
-    background: rgba(20,20,20,.5);
+
+.fixed-button {
+    background: rgba(20, 20, 20, .5);
     border-radius: 1em;
     bottom: 1em;
     color: white;
@@ -59,7 +98,8 @@ nombreBienvenida {
     text-decoration: none;
     z-index: 9999;
 }
-.fixed-button::after{
+
+.fixed-button::after {
     content: "\25BE";
     display: block;
     font-size: 28px;
@@ -68,32 +108,39 @@ nombreBienvenida {
     margin-top: 10px;
     text-align: center;
 }
+
 .fixed-button:active,
-.fixed-button:hover{
-    background: rgba(20,20,20,.9);
+.fixed-button:hover {
+    background: rgba(20, 20, 20, .9);
 }
-.section{
+
+.section {
     margin: 0 auto;
     max-width: 600px;
     padding: 1em 2.4em;
 }
-.sub-heading{
+
+.sub-heading {
     font-family: 'Caveat', cursive;
     font-size: 3em;
     margin-top: 2em;
 }
-.details{
+
+.details {
     margin: 0 auto 8em;
 }
-.details-heading{
+
+.details-heading {
     font-weight: bold;
     text-transform: uppercase;
 }
+
 .fas {
     font-size: 3em;
     opacity: .8;
 }
-.resort-image{
+
+.resort-image {
     width: 100%
 }
 
@@ -101,4 +148,4 @@ nombreBienvenida {
     .heading {
         font-size: 4em;
     }
-  }
+}
