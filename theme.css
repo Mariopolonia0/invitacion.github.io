@@ -20,6 +20,15 @@ bienvenida{
     justify-content: center;
 }
 
+nombreBienvenida {
+    color: #9100ff;
+    display: block;
+    font-family: 'Caveat', cursive;
+    font-size: 7em;
+    font-weight: bold;
+    margin-top: 15vh;
+}
+
 .header{
     background-image: url(./img/hero.jpeg);
     background-repeat: no-repeat;
@@ -30,14 +39,7 @@ bienvenida{
     margin: 0;
     padding: 1vh;
 }
-nombreBienvenida {
-    color: #9100ff;
-    display: block;
-    font-family: 'Caveat', cursive;
-    font-size: 5em;
-    font-weight: bold;
-    margin-top: 20vh;
-}
+
 
 .heading-subtext{
     color: #fff;
