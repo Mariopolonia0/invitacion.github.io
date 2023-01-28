@@ -32,9 +32,14 @@ nombreBienvenida {
 textoNombre {
     color: #9100ff;
     display: table;
+    font-size: calc(1em + 1vw);
     text-align: center;
-    font-size: 130%;
+    margin: 5%;
+}
 
+.tableNombrePadres{
+    display: flex;
+    justify-content: center;
 }
 
 .left {
