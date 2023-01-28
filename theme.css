@@ -14,19 +14,29 @@ bienvenida {
     color: #9100ff;
     font-family: arial;
     font-size: calc(1em + 1vw);
-    margin: 15%;
+    margin: 10%;
     text-align: center;
     display: flex;
     justify-content: center;
 }
 
 nombreBienvenida {
+    margin: 10%;
     color: #9100ff;
     display: block;
     font-family: 'Caveat', cursive;
-    font-size: 6em;
+    font-size: calc(3em + 3vw);
     font-weight: bold;
-    margin-top: 15vh;
+    margin-top: 10vh;
+}
+.divBienvenida{
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 1vh;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 textoNombre {
@@ -38,7 +48,7 @@ textoNombre {
 }
 
 .tableNombrePadres{
-    display: flex;
+
     justify-content: center;
 }
 
@@ -54,7 +64,7 @@ tituloPresentacion {
     color: #9100ff;
     font-family: arial;
     font-size: calc(1em + 1vw);
-    margin-top: 10%;
+    margin-top: 5%;
     margin-right: 15%;
     margin-left: 15%;
     margin-bottom: 10%;
@@ -139,9 +149,9 @@ tituloPresentacion {
 .resort-image {
     width: 100%
 }
-
+/* 
 @media only screen and (max-width: 600px) {
     .heading {
         font-size: 4em;
     }
-}
+} */
