@@ -34,7 +34,7 @@ textoNombre {
     display: table;
     font-size: calc(1em + 1vw);
     text-align: center;
-    margin: 5%;
+    margin: 3%;
 }
 
 .tableNombrePadres{
