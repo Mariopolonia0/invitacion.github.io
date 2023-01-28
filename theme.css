@@ -7,7 +7,7 @@ body {
     margin: 0;
     height: 100vh;
     text-align: center;
-    background-color: #faddff;
+    background-color: #fae7fd;
 }
 
 bienvenida {
@@ -34,7 +34,7 @@ textoNombre {
     display: table;
     font-size: calc(1em + 1vw);
     text-align: center;
-    margin: 5%;
+    margin: 3%;
 }
 
 .tableNombrePadres{
