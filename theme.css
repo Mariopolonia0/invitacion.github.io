@@ -14,20 +14,19 @@ bienvenida {
     color: #9100ff;
     font-family: arial;
     font-size: calc(1em + 1vw);
-    margin: 10%;
+    margin: 5%;
     text-align: center;
     display: flex;
     justify-content: center;
 }
 
 nombreBienvenida {
-    margin: 10%;
     color: #9100ff;
     display: block;
     font-family: 'Caveat', cursive;
     font-size: calc(3em + 3vw);
     font-weight: bold;
-    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 .divBienvenida{
     display: flex;
@@ -42,13 +41,13 @@ nombreBienvenida {
 textoNombre {
     color: #9100ff;
     display: table;
-    font-size: calc(1em + 1vw);
+    font-size: calc(0.9em + 0.9vw);
     text-align: center;
     margin: 3%;
 }
 
 .tableNombrePadres{
-
+    display: flex;
     justify-content: center;
 }
 
@@ -67,7 +66,7 @@ tituloPresentacion {
     margin-top: 5%;
     margin-right: 15%;
     margin-left: 15%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     text-align: center;
     display: flex;
     justify-content: center;
