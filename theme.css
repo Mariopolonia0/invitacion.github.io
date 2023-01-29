@@ -2,6 +2,18 @@
     color: #222;
 }
 
+/*AQUI SE AGREGAN LAS FUENTES */
+@font-face {
+    font-family: pristina;
+    src: url(font/pristina.TTF);
+}
+
+@font-face {
+    font-family: berter;
+    src: url(font/Barter.otf);
+}
+
+
 html,
 body {
     margin: 0;
@@ -12,18 +24,14 @@ body {
 
 bienvenida {
     color: #9100ff;
-    font-family: arial;
-    font-size: calc(1em + 1vw);
+    font-family: berter;
+    font-size: calc(1.1em + 1.1vw);
     margin: 5%;
     text-align: center;
     display: flex;
     justify-content: center;
 }
 
-@font-face {
-    font-family: pristina;
-    src: url(font/pristina.TTF);
-}
 
 nombreBienvenida {
     color: #6e00ff;
