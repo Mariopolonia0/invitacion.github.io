@@ -21,9 +21,9 @@ bienvenida {
 }
 
 nombreBienvenida {
-    color: #9100ff;
+    color: #6e00ff;
     display: block;
-    font-family: 'Caveat', cursive;
+    font-family: 'Pristina';
     font-size: calc(3em + 3vw);
     font-weight: bold;
     margin-bottom: 10vh;
