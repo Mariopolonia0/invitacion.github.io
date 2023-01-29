@@ -20,7 +20,10 @@ bienvenida {
     justify-content: center;
 }
 
-@import url('https://fonts.cdnfonts.com/css/pristina');
+@font-face {
+    font-family: pristina;
+    src: url(font/pristina.TTF);
+}
 
 nombreBienvenida {
     color: #6e00ff;
