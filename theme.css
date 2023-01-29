@@ -9,8 +9,13 @@
 }
 
 @font-face {
-    font-family: berter;
-    src: url(font/Barter.otf);
+    font-family: lordDarkar;
+    src: url(font/LordDarkar.ttf);
+}
+
+@font-face {
+    font-family: loveya;
+    src: url(font/LoveYa.ttf);
 }
 
 
@@ -24,14 +29,13 @@ body {
 
 bienvenida {
     color: #9100ff;
-    font-family: berter;
-    font-size: calc(1.1em + 1.1vw);
+    font-family: loveya;
+    font-size: calc(1.12em + 1.1vw);
     margin: 5%;
     text-align: center;
     display: flex;
     justify-content: center;
 }
-
 
 nombreBienvenida {
     color: #6e00ff;
@@ -41,6 +45,20 @@ nombreBienvenida {
     font-weight: bold;
     margin-bottom: 10vh;
 }
+
+tituloPresentacion {
+    color: #9100ff;
+    font-family: lordDarkar;
+    font-size: calc(1.3em + 1.3vw);
+    margin-top: 5%;
+    margin-right: 9%;
+    margin-left: 9%;
+    margin-bottom: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
 .divBienvenida{
     display: flex;
     height: 100%;
@@ -72,18 +90,7 @@ textoNombre {
     float: right;
 }
 
-tituloPresentacion {
-    color: #9100ff;
-    font-family: arial;
-    font-size: calc(1em + 1vw);
-    margin-top: 5%;
-    margin-right: 15%;
-    margin-left: 15%;
-    margin-bottom: 5%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
+
 
 .header {
     background-image: url(./img/hero.jpeg);
