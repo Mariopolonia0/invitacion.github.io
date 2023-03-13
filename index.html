@@ -10,69 +10,81 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
   <meta property="og:type" content="article" />
-	<meta property="og:title" content="Ambiorix & Elilianny" />
+  <meta property="og:title" content="Ambiorix & Elilianny" />
   <meta property="og:description" content="Te invitamos a nuestra boda" />
-	<meta property="og:image" content="https://i.ibb.co/yN8Prm7/miniatura-boda.png" />
-	<meta property="og:image:type" content="image/png" />
-	<meta property="og:url" content="hola" />
+  <meta property="og:image" content="https://i.ibb.co/yN8Prm7/miniatura-boda.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:url" content="hola" />
 </head>
 
 <body>
   <header class="header">
     <div class="divBienvenida">
 
-      <bienvenida>
+      <p class="bienvenida">
         NUESTRO DESTINO ESTABA ESCRITO Y POR FIN HA LLEGADO EL MOMENTO DE COMPARTIRLO CON USTEDES.
-      </bienvenida>
+      </p>
 
-      <nombreBienvenida>
+      <p class="nombreBienvenida">
         Ambiorix </br> & </br> Elilianny
-      </nombreBienvenida>
+      </p>
 
     </div>
   </header>
 
-  <!--a data-scroll class="fixed-button" href="#rsvp" id="rsvpButton">RSVP</a-->
-
   <section class="section">
 
     <div class="details">
-      <tituloPresentacion>Con la bendición de Dios y con la compañía de nuestros padres</tituloPresentacion>
+      <div class="bendicion">
+        <img src="img/icono_biblia.png">
+        <p class="bendicion">
+          Así que, no son ya más dos, sino una sola carne, por tanto, lo que Dios ha unido, no lo separe el hombre.
+          <br>Mateo 19:6
+        </p>
+      </div>
+
+      <p class="tituloPresentacion">
+        Con la bendición de Dios y con la compañía de nuestros padres
+      </p>
       <div class="tableNombrePadres">
         <table>
           <tbody>
             <tr>
               <td>
-                <textoNombre>Vicente Duarte Payano</textoNombre>
+                <p class="textoNombre">
+                  Vicente Duarte Payano
+                </p>
               </td>
               <td>
-                <textoNombre>Jaqueline Santos Rosa</textoNombre>
+                <p class="textoNombre">
+                  Jaqueline Santos Rosa
+                </p>
               </td>
             </tr>
             <td>
-              <textoNombre>Santo Romero Abreu</textoNombre>
+              <p class="textoNombre">
+                Santo Romero Abreu
+              </p>
             </td>
             <td>
-              <textoNombre>Aura Angelina Felipe</textoNombre>
+              <p class="textoNombre">
+                Aura Angelina Felipe
+              </p>
             </td>
           </tbody>
         </table>
       </div>
-
+      <p class="tituloPresentacion">
+        Uniremos nuestras vidas en matrimonio y tenemos el honor de invitarles a nuestra boda que se celebrara el
+      </p>
+      <p class="bienvenida">
+        El día 29 de diciembre del 2023
+      </p>
     </div>
   </section>
 
 
   <script src="./js/smooth-scroll.polyfills.min.js"></script>
-  <script defer>
-    var scroll = new SmoothScroll('a[href*="#"]');
-    var rsvpButton = document.getElementById('rsvpButton')
-    rsvpButton.addEventListener('click', hideButton, false);
-
-    function hideButton() {
-      rsvpButton.style.display = 'none';
-    }   
-  </script>
 </body>
 
 </html>
