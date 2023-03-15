@@ -16,13 +16,12 @@
 
 html,
 body {
-    flex-direction: column;
     margin: 0;
     height: 100vh;
     text-align: center;
-    background-color: #fae7fd;
+    background-color: #ebdfff;
     display: block;
-    background-image: url(img/bendicion.png);
+    background-image: url(img/fondo.png);
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -42,23 +41,23 @@ img {
 .bendicion {
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 .bendicion p {
-    color: #9100ff;
+    color: #6e00ff;
     display: table;
-    font-size: 5vw;
+    font-size: 105%;
     text-align: center;
-    margin: 10% 6%;
+    margin: 3% 6%;
 }
 
 .bendicion img {
-    width: 20%;
-    margin-left: 12vw;
+    width: 15%;
 }
 
 .bienvenida {
-    color: #9100ff;
+    color: #6e00ff;
     font-family: loveya;
     font-size: 6vw;
     margin: 5%;
@@ -81,13 +80,13 @@ section {
 }
 
 .tituloPresentacion {
-    color: #9100ff;
+    color: #6e00ff;
     font-family: lordDarkar;
     font-size: calc(1.3em + 1.3vw);
-    margin-top: 5%;
+    margin-top: 2%;
     margin-right: 9%;
     margin-left: 9%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -104,7 +103,7 @@ section {
 }
 
 .textoNombre {
-    color: #9100ff;
+    color: #6e00ff;
     display: table;
     font-size: calc(0.9em + 0.9vw);
     text-align: center;
