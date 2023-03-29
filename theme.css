@@ -29,6 +29,54 @@ body {
     padding-top: 0;
 }
 
+button {
+    height: 6%;
+    background: darkorchid;
+    border: 5px darkorchid;
+    border-radius: 50px;
+    font-size: 110%;
+    padding: 5px 40px;
+    color: #ebdfff;
+    margin-top: 5%;
+}
+
+.regalo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.regalo img {
+    width: 15%;
+}
+
+.regaloP {
+    color: #5600ff;
+    font-family: loveya;
+    font-size: 10vw;
+    margin: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.regaloDeposito {
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    color: #5600ff;
+    font-family: loveya;
+    font-size: 10vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 120%;
+}
+
+.iconoRegalo {
+    margin-top: 5%;
+}
+
 p {
     display: flex;
 }
