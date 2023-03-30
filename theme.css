@@ -29,25 +29,42 @@ body {
     padding-top: 0;
 }
 
-button {
-    height: 6%;
+.buttonUbicacion {
+    width: 60%;
+    height: 12vw;
     background: darkorchid;
-    border: 5px darkorchid;
+    border: 1px;
     border-radius: 50px;
-    font-size: 110%;
-    padding: 5px 40px;
     color: #ebdfff;
     margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirmacion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttonA {
+    display: contents;
+}
+
+.buttonUbicacion p {
+    font-size: 200%;
+    font-family: 'loveya';
+}
+
+.buttonUbicacion img {
+    width: 16%;
 }
 
 .regalo {
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-.regalo img {
-    width: 15%;
 }
 
 .regaloP {
@@ -84,6 +101,7 @@ p {
 img {
     max-width: 100%;
     height: auto;
+    width: 15%;
 }
 
 .bendicion {
