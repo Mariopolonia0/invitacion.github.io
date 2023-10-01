@@ -29,6 +29,19 @@ body {
     padding-top: 0;
 }
 
+.registroConfirmacion{
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    color: #5600ff;
+    font-family: loveya;
+    font-size: 10vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 120%;
+}
+
 .buttonUbicacion {
     width: 60%;
     height: 12vw;
