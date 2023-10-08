@@ -64,6 +64,7 @@ body {
     align-items: center;
     flex-direction: column;
     box-shadow: 0px 0px 8px #5600ff;
+    border-radius: 10px;
     margin: 5%;
     padding: 5%;
 }
@@ -221,7 +222,7 @@ section {
 }
 
 .header {
-    background-image: url(./img/hero.jpeg);
+    background-image: url(./img/FondoPricipal.jpeg);
     background-repeat: no-repeat;
     background-position: 50% 60%;
     background-attachment: scroll;
