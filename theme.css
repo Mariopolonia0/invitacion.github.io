@@ -19,7 +19,7 @@ body {
     margin: 0;
     height: 100vh;
     text-align: center;
-    background-color: #ebdfff;
+    background-color: #ffffff;
     display: block;
     background-image: url(img/fondo.png);
     background-attachment: fixed;
@@ -43,12 +43,12 @@ body {
 }
 
 .buttonUbicacion {
-    width: 60%;
-    height: 10vw;
+    width: 80%;
+    height: 11vw;
     background: darkorchid;
     border: 1px;
     border-radius: 50px;
-    color: #ebdfff;
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,12 +56,23 @@ body {
 
 .inputConfirmacion {
     margin: 5px;
+    width: 250px;
 }
 
 .confirmacion {
     display: flex;
     align-items: center;
     flex-direction: column;
+    box-shadow: 0px 0px 8px #5600ff;
+    margin: 5%;
+    padding: 5%;
+}
+
+.DivInputConfirmacion {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 0% 0% 3% 0%;
 }
 
 .buttonA {
@@ -81,13 +92,16 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    box-shadow: 0px 0px 8px #5600ff;
+    border-radius: 10px;
+    margin: 5%;
+    padding: 5%;
 }
 
 .regaloP {
     color: #5600ff;
     font-family: loveya;
-    font-size: 10vw;
-    margin: 5%;
+    font-size: 8vw;
     text-align: center;
     display: flex;
     justify-content: center;
