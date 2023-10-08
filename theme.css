@@ -14,6 +14,11 @@
     src: url(font/LoveYa.ttf);
 }
 
+@font-face {
+    font-family: DelaGothicOne;
+    src: url(font/DelaGothicOne.ttf);
+}
+
 html,
 body {
     margin: 0;
@@ -154,13 +159,9 @@ img {
 }
 
 .bienvenida {
-    color: #6e00ff;
-    font-family: loveya;
-    font-size: 5.7vw;
-    margin: 5%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+    color: #46296b;
+    font-family: DelaGothicOne;
+    font-size: 5.4vw;
 }
 
 section {
@@ -192,15 +193,13 @@ section {
 .divBienvenida {
     display: flex;
     height: 100%;
-    margin: 0;
-    padding: 1vh;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
 }
 
 .textoNombre {
-    color: #6e00ff;
+    color: #2D2A4A;
     display: table;
     font-size: calc(0.9em + 0.9vw);
     text-align: center;
@@ -229,7 +228,6 @@ section {
     background-size: cover;
     height: 100vh;
     margin: 0;
-    padding: 1vh;
 }
 
 .heading-subtext {
