@@ -19,6 +19,11 @@
     src: url(font/DelaGothicOne.ttf);
 }
 
+@font-face {
+    font-family: ArvoRegular;
+    src: url(font/ArvoRegular.ttf);
+}
+
 html,
 body {
     margin: 0;
@@ -111,9 +116,10 @@ body {
     text-align: center;
     display: flex;
     justify-content: center;
+    margin: 3%;
 }
 
-.regaloDeposito {
+.regaloDepositoInformacion {
     font-weight: 800;
     letter-spacing: 0.2em;
     color: #5600ff;
@@ -123,6 +129,18 @@ body {
     display: flex;
     justify-content: center;
     margin: 0;
+    font-size: 120%;
+}
+
+.regaloDeposito {
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    color: #5600ff;
+    font-family: loveya;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0% 0% 10% 0%;
     font-size: 120%;
 }
 
@@ -158,10 +176,19 @@ img {
     width: 15%;
 }
 
+p{}
+
+
 .bienvenida {
     color: #46296b;
     font-family: DelaGothicOne;
     font-size: 5.4vw;
+}
+
+.textFont {
+    color: #5600ff;
+    font-family: 'ArvoRegular';
+    font-size: 5vw;
 }
 
 section {
