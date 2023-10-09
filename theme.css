@@ -55,13 +55,13 @@ body {
 .buttonUbicacion {
     width: 80%;
     height: 11vw;
-    background: darkorchid;
+    background: #8547ff;
     border: 1px;
     border-radius: 50px;
     color: #ffffff;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
 }
 
 .inputConfirmacion {
@@ -123,7 +123,7 @@ body {
 .regaloDepositoInformacion {
     font-weight: 800;
     letter-spacing: 0.2em;
-    color: #8547ff;
+    color: #000000;
     font-family: loveya;
     font-size: 10vw;
     text-align: center;
@@ -136,7 +136,7 @@ body {
 .regaloDeposito {
     font-weight: 800;
     letter-spacing: 0.2em;
-    color: #8547ff;
+    color: #000000;
     font-family: loveya;
     text-align: center;
     display: flex;
@@ -166,11 +166,11 @@ img {
 }
 
 .bendicion p {
-    color: #6e00ff;
+    color: #8547ff;
     display: table;
-    font-size: 105%;
+    font-size: 122%;
     text-align: center;
-    margin: 3% 6%;
+    font-family: 'loveya';
 }
 
 .bendicion img {
@@ -186,7 +186,7 @@ img {
 .textFont {
     font-weight: 800;
     letter-spacing: 0.2em;
-    color: #8547ff;
+    color: #000000;
     font-family: loveya;
     text-align: center;
     display: flex;
@@ -209,13 +209,9 @@ section {
 }
 
 .tituloPresentacion {
-    color: #6e00ff;
+    color: #000000;
     font-family: lordDarkar;
     font-size: calc(1.3em + 1.3vw);
-    margin-top: 2%;
-    margin-right: 9%;
-    margin-left: 9%;
-    margin-bottom: 3%;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -230,11 +226,12 @@ section {
 }
 
 .textoNombre {
-    color: #2D2A4A;
+    color: #000000;
     display: table;
-    font-size: calc(0.9em + 0.9vw);
+    font-size: 130%;
     text-align: center;
-    margin: 5%;
+    margin: 1%;
+    font-family: 'loveya';
 }
 
 
@@ -299,6 +296,8 @@ section {
 .section {
     margin: 0 auto;
     max-width: 600px;
+    display: flex;
+    flex-direction: column;
 }
 
 .sub-heading {
