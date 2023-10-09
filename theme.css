@@ -29,7 +29,7 @@ body {
     margin: 0;
     height: 100vh;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #fbe4fa;
     display: block;
     background-image: url(img/fondo.png);
     background-attachment: fixed;
@@ -61,7 +61,7 @@ body {
     color: #ffffff;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
 }
 
 .inputConfirmacion {
@@ -178,9 +178,9 @@ img {
 }
 
 .bienvenida {
-    color: #000000;
-    font-family: DelaGothicOne;
-    font-size: 5.4vw;
+    color: #bb63ff;
+    font-family: cursive;
+    font-size: 5.9vw;
 }
 
 .textFont {
@@ -200,7 +200,7 @@ section {
 }
 
 .nombreBienvenida {
-    color: #d196ff;
+    color: #c06fff;
     display: block;
     font-family: pristina;
     font-size: 18vw;
@@ -223,6 +223,10 @@ section {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
+    background-image: url(./img/FondoPrincipal.png);
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
+    background-size: 220%;
 }
 
 .textoNombre {
@@ -249,11 +253,6 @@ section {
 }
 
 .header {
-    background-image: url(./img/FondoPricipal.png);
-    background-repeat: no-repeat;
-    background-position: 50% 60%;
-    background-attachment: scroll;
-    background-size: cover;
     height: 100vh;
     margin: 0;
 }
