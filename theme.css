@@ -29,12 +29,17 @@
     src: url(font/Oldenburg.ttf);
 }
 
+@font-face {
+    font-family: Yester;
+    src: url(font/Yesteryear.ttf);
+}
+
 html,
 body {
     margin: 0;
     height: 100vh;
     text-align: center;
-    background-color: #e9e9e9;
+    background-color: #ffffff;
     display: block;
     background-image: url(img/fondo.png);
     background-attachment: fixed;
@@ -48,7 +53,6 @@ body {
     display: flex;
     height: 100%;
     align-items: center;
-    justify-content: space-between;
     flex-direction: column;
     background-image: url(./img/FondoPrincipal.png);
     background-attachment: local;
@@ -61,9 +65,8 @@ body {
 
 .registroConfirmacion {
     font-weight: 800;
-    letter-spacing: 0.2em;
     color: #5600ff;
-    font-family: loveya;
+    font-family: OldenOlden;
     font-size: 10vw;
     text-align: center;
     display: flex;
@@ -73,8 +76,8 @@ body {
 }
 
 .buttonUbicacion {
-    width: 85%;
-    height: 12vw;
+    width: 100%;
+    height: 13vw;
     background: #8547ff;
     border: 1px;
     border-radius: 50px;
@@ -95,7 +98,7 @@ body {
     flex-direction: column;
     box-shadow: 0px 0px 8px #5600ff;
     border-radius: 10px;
-    margin: 5%;
+    margin: 5% 5% 35% 5%;
     padding: 5%;
 }
 
@@ -111,13 +114,13 @@ body {
 }
 
 .buttonUbicacion p {
-    font-size: 140%;
-    font-family: 'loveya';
-    letter-spacing: 0.3vw;
+    font-size: 120%;
+    font-family: 'OldenOlden';
+    letter-spacing: 0.6vw;
 }
 
 .buttonUbicacion img {
-    width: 16%;
+    width: 14%;
 }
 
 .regalo {
@@ -132,7 +135,7 @@ body {
 
 .regaloP {
     color: #8547ff;
-    font-family: loveya;
+    font-family: OldenOlden;
     font-size: 8vw;
     text-align: center;
     display: flex;
@@ -142,9 +145,8 @@ body {
 
 .regaloDepositoInformacion {
     font-weight: 800;
-    letter-spacing: 0.2em;
     color: #000000;
-    font-family: loveya;
+    font-family: OldenOlden;
     font-size: 10vw;
     text-align: center;
     display: flex;
@@ -154,10 +156,9 @@ body {
 }
 
 .regaloDeposito {
-    font-weight: 800;
-    letter-spacing: 0.2em;
+    font-weight: 500;
     color: #000000;
-    font-family: loveya;
+    font-family: OldenOlden;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -179,6 +180,25 @@ img {
     width: 25%;
 }
 
+.boys{
+    padding: 5%;
+    font-size: x-large;
+    margin: 0
+}
+
+.contamos{
+    padding: 5%;
+    font-size: x-large;
+    margin: 0
+}
+
+.gracias{
+    padding: 5% 5% 5% 5%;
+    font-size: x-large;
+    margin: 0;
+    color: #5600ff;
+}
+
 .bendicion {
     display: flex;
     align-items: center;
@@ -186,11 +206,11 @@ img {
 }
 
 .bendicion p {
-    color: #8547ff;
+    color: #000000;
     display: table;
-    font-size: 122%;
+    font-size: 110%;
     text-align: center;
-    font-family: 'loveya';
+    font-family: 'OldenOlden';
 }
 
 .imgFondoPripal {
@@ -199,16 +219,16 @@ img {
 }
 
 .bienvenida {
-    color: #bb63ff;
+    color: #000000;
     font-family: OldenOlden;
-    font-size: 5.9vw;
+    font-size: 5vw;
+    margin: 4.5vw 0;
 }
 
 .textFont {
-    font-weight: 800;
-    letter-spacing: 0.2em;
+    font-weight: 500;
     color: #000000;
-    font-family: loveya;
+    font-family: OldenOlden;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -221,20 +241,24 @@ section {
 }
 
 .nombreBienvenida {
-    color: #c06fff;
-    display: block;
-    font-family: pristina;
-    font-size: 18vw;
+    color: #ffffff;
+    display: table-cell;
+    font-family: Yester;
+    font-size: 12vw;
     font-weight: bold;
+    margin: 0;
+    background: #e1bbff;
+    padding: 0vw 5vw;
 }
 
 .tituloPresentacion {
     color: #000000;
-    font-family: lordDarkar;
+    font-family: OldenOlden;
     font-size: calc(1.3em + 1.3vw);
     text-align: center;
     display: flex;
     justify-content: center;
+    font-weight: 800;
 }
 
 
@@ -244,7 +268,7 @@ section {
     font-size: 130%;
     text-align: center;
     margin: 1%;
-    font-family: 'loveya';
+    font-family: 'OldenOlden';
 }
 
 
@@ -269,7 +293,7 @@ section {
 .heading-subtext {
     color: #fff;
     display: block;
-    font-family: 'Caveat', cursive;
+    font-family: 'OldenOlden';
     font-size: .6em;
 }
 
@@ -309,7 +333,7 @@ section {
 }
 
 .sub-heading {
-    font-family: 'Caveat', cursive;
+    font-family: 'OldenOlden';
     font-size: 3em;
     margin-top: 2em;
 }
