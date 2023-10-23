@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="UTF-8">
+
   <title>Invitación de boda</title>
   <link rel="stylesheet" type="text/css" href="theme.css">
-  <link rel="stylesheet" type="text/css" href="./icons/css/all.min.css">
   <link href="https://fonts.googleapis.com/css?family=Caveat|Quicksand&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
@@ -125,20 +125,26 @@
 
       <div class="DivInputConfirmacion">
         <p class="registroConfirmacion">Nombre</p>
-        <input class="inputConfirmacion">
+        <input class="inputConfirmacion" id="nombre" type="text" required>
+
         <p class="registroConfirmacion">Cantidad de personas</p>
-        <input class="inputConfirmacion">
+        <input class="inputConfirmacion" id="numero" type="number" required>
       </div>
 
       <button onclick="Enviar()">
         <p class="registroConfirmacion">Enviar</p>
       </button>
 
-      <p class="boys">SIN NIÑO</p>
+      <p class="boys">SIN NIÑOS</p>
 
       <p class="contamos">Esperamos contar con su presencia </p>
 
       <p class="gracias">MUCHAS GRACIAS</p>
+
+      <h2>Notes</h2>
+      <ul>
+
+      </ul>
 
     </div>
   </section>
